@@ -1,0 +1,34 @@
+
+ Blockchain:
+ ===========
+  Collection of blocks that store information in digital format. Each block has 3 main fields.
+   1. Address of the block determined by hash. 2. Data field. 3. Prev Hash which is reference to the previous block.
+   
+  'Genesis Block' is the 1st block in blockchain. Since it is 1st, previous hash field is all 0 and cannot use this block in your application.
+  Blocks are added by miners. Whichever miner is fast, can add the block to blockchain.
+  
+  Why do they add block ?
+   They get reward in cryptocurrency for the transaction by who initiated it. This reward is also known as 'Gas Fee'.
+  Since mining takes time, transactions using butcoin/etherium are not as fast as traditional transactions.
+  
+  How does it prevent hacking ?
+   If a block is modified by a hacker, it's hash is changed. This causes the block to be invalidated since it does not match the value of prev hash in next block.
+   Since blockchain is decentralised platform, hacker will also not have cpu and mining power to modify all the blocks.
+  
+  It is immutable, i.e if a block is written, it cannot be changed. It's openly available. 
+  Each crypto has separate blockchain. If another crypto is reusing a blockchain, we call it a token not cryptocurrency. 
+  
+ Smart Contracts :
+ =================
+  Programs stored on blockchain that run on predetermined conditions. Eg: NFT marketplace, any store accepting crypto currency, crypto swap etc,.
+  
+  Etherium block chain is the most popular. Frontend can be written with react. Backend with node.js/python. 
+  Smart contracts can be written using solidity which can be used in Etherium, polygon and Binance blockchain. Rust, C, C++ can be used to write Solana.
+  Frontend/Backend communicate to Smart contract(solidity) using API's. APIs can be web 3 js, python or ethers.
+  GraphQL is used to fetch data from blockchain.
+  For local development, use Hardhat for Js and Brownie for Python.
+  Storage in blockchain is mostly images, which can be large therefore it is stored in IPFS.
+  
+  Amazon Managed Blockchain is a solution provided by AWS. 
+  
+  
